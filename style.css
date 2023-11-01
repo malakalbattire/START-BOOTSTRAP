@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    font-family:  Montserrat, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #2c3e50;
+    color: white;
+    height:  74.5938px;
+}
+.logo{
+    margin-left: 8px;
+    float: left;
+    margin-top: 18px;
+    
+    
+
+}
+.menu{
+    margin-right: 8px;
+   
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.menu ul li{
+    float :left;
+}
+.menu ul a {
+    
+    text-decoration-line:none ;
+    color: white;
+    margin: 3px;
+    text-transform: uppercase;
+}
+
+
+.start{
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+   
+    height:550px ;
+}
+.imgg{
+    margin-top: 60px;
+    margin-bottom: 48px;
+    width: 240px;
+    height:  254.539px;
+}
+.boot{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.star{
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.star::after{
+    float:right;
+    padding-right: 100px;
+    margin-left: 16px;
+    max-width: 112px;
+    content: " ";
+    background-color: white;
+    height: 4px;
+    display: block;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    
+}
+ 
+.star::before{
+    float: left;
+    padding-left: 100px;
+    margin-right: 16px;
+    
+    content: " ";
+    background-color: white;
+    max-width: 112px;
+    height: 4px;
+    display: block;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    
+}
+.graphic{
+    font-family: Lato, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+
+}
+.port{
+    text-align: center;
+    font-family: Montserrat, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
